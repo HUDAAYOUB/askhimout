@@ -62,6 +62,7 @@ function App() {
       <button
         className="no"
         onMouseEnter={moveButton}
+          onTouchStart={moveButton}
         style={
           position
             ? {
