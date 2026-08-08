@@ -7,11 +7,11 @@ function App() {
   const [messageIndex, setMessageIndex] = useState(0);
 
   const messages = [
-    "No 😭",
-    "Are you sure? 🥺",
-    "Really? 😭",
-    "Think again 💔",
-    "Last chance! 😤",
+    "No ",
+    "Are you sure? ",
+    "Really? ",
+    "Think again ",
+    "Last chance! ",
   ];
 
   function moveButton() {
@@ -34,7 +34,7 @@ function App() {
           muted
         />
 
-        <h1>Yay! I'm so happy you said yes! 💖</h1>
+        <h1>Yay! I'm so happy you said yes! </h1>
       </div>
     );
   }
@@ -48,14 +48,14 @@ function App() {
         muted
       />
 
-      <h1>Will you go out with me? 🥺💗</h1>
+      <h1>Will you go out with me? </h1>
 
       <button
         className="yes"
         onClick={() => setAccepted(true)}
         style={{ transform: `scale(${yesSize})` }}
       >
-        Yes 💕
+        Yes 
       </button>
 
       <button
