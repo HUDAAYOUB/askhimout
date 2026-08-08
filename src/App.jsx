@@ -12,7 +12,7 @@ function App() {
     "Are you sure? ",
     "Really? ",
     "Think again ",
-    "Last chance! ",
+    "Please! ",
   ];
 
   function moveButton() {
