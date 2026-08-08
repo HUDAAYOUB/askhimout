@@ -1,38 +1,70 @@
+body {
+  margin: 0;
+  background: #ffeef5;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  color: #d94f87;
+  font-size: clamp(24px, 6vw, 38px);
+}
+
+/* All buttons */
 button {
-  margin: 12px;
+  margin: 10px;
   padding: 13px 28px;
-
   font-size: 18px;
-  font-weight: 600;
+  font-weight: bold;
 
-  border: 2px solid #ffffff;
-  border-radius: 999px;
+  border: 2px solid white;
+  border-radius: 25px;
 
   cursor: pointer;
 
   box-shadow: 0 5px 15px rgba(255, 105, 180, 0.25);
 
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease;
 }
 
 /* YES 💕 */
 .yes {
-  background: #ff8fbd;
+  background-color: #ff6fa5;
   color: white;
 }
 
 .yes:hover {
-  box-shadow: 0 7px 20px rgba(255, 105, 180, 0.4);
+  box-shadow: 0 7px 20px rgba(255, 105, 180, 0.45);
 }
 
 /* NO 🥺 */
 .no {
-  background: #ffc1d9;
-  color: #a83f69;
+  background-color: #ffc4da;
+  color: #b33f70;
 }
 
 .no:hover {
-  box-shadow: 0 7px 20px rgba(255, 160, 200, 0.4);
+  box-shadow: 0 7px 20px rgba(255, 150, 190, 0.4);
+}
+
+/* Video */
+video {
+  width: 700px;
+  max-width: 100vw;
+  max-height: 55vh;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.2);
 }
